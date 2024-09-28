@@ -46,12 +46,18 @@
             font-size: 1.5rem;
         }
 
+        main hr{
+            background-color: rgb(136, 136, 243);
+            height: 2px;
+            border: 0px;
+            margin: 60px 80px;
+        }
         .firstSection{
             margin: 23px 0;
             display: flex;
             align-items: center;
             justify-content: space-around;
-            margin: 80px 0;
+            margin: 120px 0;
 
         }
         .firstSection > div{
@@ -67,9 +73,34 @@
         .purple{
             color: blueviolet;
         }
+        .textGray{
+            color: gray;
+        
+        }
         #element{
             color: blueviolet;
-            font-size: 3.1rem;
+            
+        }
+        .secondSection{
+            margin: auto;
+            max-width:80vw ;
+            height: 80vh;
+        }
+        .secondSection h1{
+            font-size: 1.5rem;
+        }
+        .secondSection .box{
+            background: white;
+            margin: 50px 0;
+            width: 80vw;
+            height: 2px;
+            display: flex;
+        }
+        .secondSection .vertical{
+            height: 93px;
+            width: 1px;
+            background-color: white;
+            margin: 0 100px;
         }
     </style>
 </head>
@@ -102,7 +133,20 @@
             <img src="images/bg.png" alt="developer images">
             </div>
         </section>
+        <hr>
+        <section class="secondSection">
+            <span class="textGray">What have i done before </span>
+           <h1>Work Experienced</h1>
+           <div class="box">
+            <div class="vertical"></div>
+            <div class="vertical"></div>
+            <div class="vertical"></div>
+            <div class="vertical"></div>
+            
+           </div>
+        </section>
     </main>
+
     <script>
         <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
         
